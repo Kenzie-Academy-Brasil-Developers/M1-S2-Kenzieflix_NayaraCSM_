@@ -1,0 +1,74 @@
+
+
+body{
+    margin: auto;
+    width: 500;
+    text-align: center;
+    background-color: black;
+    color: aliceblue;}
+
+main{
+    background-color: black;
+    color: aliceblue;}
+
+.logo{
+    padding: 30px 0px 50px;}
+
+.container{
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    color: rgb(231, 227, 227);
+    border: 1px;
+    border-radius: 16px;
+    Padding: 0px;}
+
+.box1 .box2 .box3 .box4{
+    width: 160px;}
+
+.box{
+    margin: auto;
+    width: 700px;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;}
+
+.perfis{
+    width: 160px;
+    border: 1px;
+    border-radius: 7px;}
+
+.perfis:hover{
+    transition: unset;
+    border: solid rgb(255, 255, 255);
+    color: rgb(255, 255, 255);}
+
+.mais{
+    border-radius: 7px;
+    background-color: rgb(70, 68, 68);
+    color: rgb(255, 255, 255);
+    padding: 47px;}
+
+.mais:hover{
+    transition: unset;
+    border: solid rgb(255, 255, 255);
+    color: rgb(255, 255, 255);}
+
+.adicionarmais{
+    Padding:5px;}
+
+.gerenciarperfis{
+    display: inline-block;
+    justify-content: center;
+    flex-direction: column;
+    width:200px ;
+    margin-top: 30px;
+    color: rgb(255, 255, 255);
+    border: solid 1px rgb(255, 255, 255);
+    border-radius: 10px;
+    padding: 1px;}
+
+.gerenciarperfis:hover{
+    transition: unset;
+    background-color: aliceblue;
+    color: rgb(0, 0, 0);}
